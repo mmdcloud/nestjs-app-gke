@@ -14,8 +14,8 @@ kind: Target
 metadata:
   name: staging
 description: Staging Environment
-run:
-  location: projects/river-clover-404404/locations/us-central1
+gke:
+  cluster: projects/river-clover-404404/locations/us-central1/clusters/staging
 ---
 
 apiVersion: deploy.cloud.google.com/v1
@@ -23,5 +23,5 @@ kind: Target
 metadata:
   name: production
 description: Production Environment
-run:
-  location: projects/river-clover-404404/locations/us-central1
+gke:
+  cluster: projects/river-clover-404404/locations/us-central1/clusters/production
