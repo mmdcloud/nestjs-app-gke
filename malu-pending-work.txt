@@ -1,0 +1,7 @@
+1. Add Compulsion punch checkbox in front of store name
+2. App - 
+Tabs -  Compulsion Punch Store , All Stores
+3. Radius check while punch - not in radius prompt ( if yes ask for selfie )
+4. First punch - start time and end punch end time 
+5. report - date user start end total-compulsory-punches total-attempted-punches status(greater > 50 -half and 100 -full ,less than 50 absent) selfie-punch-count 
+6.check first punch - punch with selfie - grab location
