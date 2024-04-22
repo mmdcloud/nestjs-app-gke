@@ -5,7 +5,7 @@ steps:
       [
         "build",
         "-t",
-        "us-central1-docker.pkg.dev/mohits-project-413319/nestjs-app/nestjs-app:$SHORT_SHA",
+        "us-central1-docker.pkg.dev/analog-grin-419814/nestjs-app/nestjs-app:$SHORT_SHA",
         ".",
       ]
 
@@ -14,7 +14,7 @@ steps:
     args:
       [
         "push",
-        "us-central1-docker.pkg.dev/mohits-project-413319/nestjs-app/nestjs-app:$SHORT_SHA",
+        "us-central1-docker.pkg.dev/analog-grin-419814/nestjs-app/nestjs-app:$SHORT_SHA",
       ]
 
   # Create release in Google Cloud Deploy
@@ -35,5 +35,5 @@ steps:
         "--source",
         "./",
         "--images",
-        "nestjs-app=us-central1-docker.pkg.dev/mohits-project-413319/nestjs-app/nestjs-app:$SHORT_SHA",
+        "nestjs-app=us-central1-docker.pkg.dev/analog-grin-419814/nestjs-app/nestjs-app:$SHORT_SHA",
       ]
