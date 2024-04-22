@@ -15,7 +15,7 @@ metadata:
   name: staging
 description: Staging Environment
 gke:
-  cluster: projects/mohits-project-413319/locations/us-central1/clusters/staging
+  cluster: projects/analog-grin-419814/locations/us-central1/clusters/staging
 ---
 
 apiVersion: deploy.cloud.google.com/v1
@@ -24,4 +24,4 @@ metadata:
   name: production
 description: Production Environment
 gke:
-  cluster: projects/mohits-project-413319/locations/us-central1/clusters/production
+  cluster: projects/analog-grin-419814/locations/us-central1/clusters/production
